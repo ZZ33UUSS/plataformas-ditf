@@ -1,0 +1,28 @@
+{
+    "nextPaletteID": 1,
+    "palettes": {
+        "custom0": {
+            "id": "custom0",
+            "name": "Zero Two",
+            "colors": [
+                "#000000",
+                "#FFFFFF",
+                "#D3323A",
+                "#F2BBBD",
+                "#7D5557",
+                "#277175",
+                "#6AC3C8",
+                "#FE8836",
+                "#C1484E",
+                "#2864AD",
+                "#FFE5E6",
+                "#49C4E6",
+                "#6D6358",
+                "#EFE6DD",
+                "#91463d",
+                "#000000"
+            ],
+            "custom": true
+        }
+    }
+}

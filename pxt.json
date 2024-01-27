@@ -1,0 +1,46 @@
+{
+    "name": "Plataformas DITF",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#D3323A",
+        "#F2BBBD",
+        "#7D5557",
+        "#277175",
+        "#6AC3C8",
+        "#FE8836",
+        "#C1484E",
+        "#2864AD",
+        "#FFE5E6",
+        "#49C4E6",
+        "#6D6358",
+        "#EFE6DD",
+        "#91463d",
+        "#000000"
+    ]
+}
