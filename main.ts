@@ -22,6 +22,9 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
+info.onLifeZero(function () {
+    game.gameOver(false)
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     Zero_Two.setPosition(7, 40)
     info.changeLifeBy(-1)
@@ -56,6 +59,8 @@ scene.cameraFollowSprite(Zero_Two)
 tiles.placeOnRandomTile(DITF_Enemy, assets.tile`myTile15`)
 Zero_Two.ay = 300
 info.setLife(3)
+game.setGameOverMessage(false, "Good Luck Next Time!")
+game.setGameOverMessage(true, "You Are So TryHard")
 game.onUpdate(function () {
     if (Zero_Two.tileKindAt(TileDirection.Bottom, assets.tile`myTile`)) {
         Zero_Two.setPosition(7, 40)
